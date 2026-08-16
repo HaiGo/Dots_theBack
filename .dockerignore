@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Setup scripts
+setup.sh
+setup.bat
+
+# Test files and utilities
+tests/
+test_*.py
+*_test.py
+check_*.py
+diagnose_*.py
+fix_*.py
+create_test_*.py
+delete_test_*.py
+verify_user.py
+manage_pi_devices.py
+setup_simulator.py
+setup_multi_pi_devices.py
+cleanup_all_test_data.py
+create_minio_bucket.py
+run_email_verification_test.bat
+
+# Simulator
+simulator/
+
+# READMEs directory
+READMEs/
+

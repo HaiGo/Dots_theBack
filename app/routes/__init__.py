@@ -1,0 +1,2 @@
+# Routes package - Blueprint registration
+

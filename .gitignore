@@ -1,0 +1,107 @@
+# =============================================================================
+# Pi-Booth Backend — .gitignore
+# =============================================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---- Virtual Environments ----
+env/
+venv/
+ENV/
+.venv/
+
+# ---- Build / Distribution ----
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Flask ----
+instance/
+.webassets-cache
+
+# ---- Environment Variables (SECURITY CRITICAL) ----
+# Never commit real credentials.
+# Only .env.example (the safe template) is tracked.
+.env
+.env.*
+!.env.example
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Databases ----
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Logs ----
+*.log
+
+# ---- Testing ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Development Markdown Files ----
+# All .md files generated during development are ignored.
+# Only the main README.md is tracked for the public repo.
+*.md
+!README.md
+
+# ---- Development / Debug Scripts (root level) ----
+# These are utility scripts used during development and are not
+# part of the core application. They are kept locally but ignored by git.
+check_*.py
+create_*.py
+debug_*.py
+diagnose_*.py
+fix_*.py
+verify_*.py
+cleanup_*.py
+delete_*.py
+setup_*.py
+manage_pi_devices.py
+test_*.py
+test_*.bat
+run_*.bat
+setup.bat
+setup.sh
+
+# ---- Tests directory (dev tests) ----
+tests/
+
+# ---- READMEs folder (dev notes) ----
+READMEs/
+
+# ---- Simulator assets ----
+simulator/
+
+# ---- Migrations (uncomment if you want to ignore migrations) ----
+# migrations/

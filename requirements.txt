@@ -1,0 +1,16 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Mail
+Flask-JWT-Extended
+Flask-Cors
+psycopg2-binary
+redis
+minio
+python-dotenv
+gunicorn
+requests
+shortuuid
+Pillow
+sendgrid
+
